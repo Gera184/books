@@ -5,7 +5,13 @@ import Book from "./components/book/Book";
 
 export default () => {
   return (
-    <div style={{ fontFamily: "Baloo 2" }}>
+    <div
+      style={{
+        fontFamily: "Sofia sans-serif",
+        overflowX: "hidden",
+        color: "white",
+      }}
+    >
       <Router>
         <Switch>
           <Route exact path="/favorites" component={Book} />
