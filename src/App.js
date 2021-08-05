@@ -5,7 +5,7 @@ import Book from "./components/book/Book";
 
 export default () => {
   return (
-    <div>
+    <div style={{ fontFamily: "Baloo 2" }}>
       <Router>
         <Switch>
           <Route exact path="/favorites" component={Book} />
