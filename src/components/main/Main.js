@@ -112,7 +112,7 @@ export default function Main() {
             <div class="container py-4">
               <h1 class="h1 text-center" id="pageHeaderTitle">
                 {book.volumeInfo.publisher} ,
-                {book.volumeInfo ? book.volumeInfo.authors[0] : null}
+                {book.volumeInfo.authors ? book.volumeInfo.authors[0] : null}
               </h1>
 
               <article class="postcard dark blue">
